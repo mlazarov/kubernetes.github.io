@@ -124,7 +124,7 @@ This feature can be activated by adding the alpha annotation below to the metada
 
 Alpha features are not enabled by default, they must be enabled using the release gate command line flags
 for kube-controller-manager and kube-proxy.
-See [https://github.com/kubernetes/kubernetes/blob/master/docs/proposals/runtimeconfig.md](Runtime feature flags proposal) for more details on feature gate flags.
+See [Runtime feature flags proposal](https://github.com/kubernetes/kubernetes/blob/master/docs/proposals/runtimeconfig.md) for more details on feature gate flags.
 
 If this feature is not enabled in your cluster, this annotation in your service configuration will be rejected.
 
